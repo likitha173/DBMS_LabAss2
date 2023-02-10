@@ -1,0 +1,9 @@
+3. Create programs for following for above given schemas
+
+    a. Create a host language block using a cursor to calculate bonus for teachers as 5% of their salary. Display on screen the teacher details along with the bonus given.
+
+    b. Write a host language block to delete all the rows from the ‘teacher’ table where the salary is less than Rs.5000.
+
+    c. Write a host language code to insert the supervisor information from ‘teacher’ table to another table called ‘supervisor’. The new table should have only those records where the job title is ‘supervisor’.
+
+    d. Write a block in host language that deletes all the rows from ‘teacher’ table if the teacher was hired for more than 10 years.

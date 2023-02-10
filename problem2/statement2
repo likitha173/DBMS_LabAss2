@@ -1,0 +1,25 @@
+2. For the given three schemas
+
+    Teacher(t_no, f_name, l_name, salary, supervisor, joiningdate, birthdate, title) 
+    Class(class_no, t_no, room_no)
+    Payscale(Min_limit, Max_limit, grade)
+
+(a) Calculate the bonus amount to be given to a teacher depending on the following conditions:
+
+        I. if salary > 10000 then bonus is 10% of the salary.
+
+        II. if salary is between 10000 and 20000 then bonus is 20% of the salary.
+
+        III. if salary is between 20000 and 25000 then bonus is 25% of the salary.
+
+        IV. if salary exceeds 25000 then bonus is 30% of the salary.
+
+(b) Using a simple LOOP structure, list the first 10 records of the ‘teachers’ table.
+
+(c) Create a procedure that selects all teachers who get a salary of Rs.20, 000 and if less than 5 teachers are getting Rs.20, 000 then give an increment of 5%. 51 Lab Manual
+
+(d) Create a procedure that finds whether a teacher given by user exists or not and if not then display “teacher id not exists”.
+
+(e) Using FOR loop, display name and id of all those teachers who are more than 58 years old.
+
+(f) Using while loop, display details of all those teachers who are in grade ‘A’. (g) Create a procedure that displays the names of all those teachers whose supervisor is ‘Suman’.
